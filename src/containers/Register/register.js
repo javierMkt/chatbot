@@ -37,15 +37,15 @@ const Register = (props) => {
         <div className='register-container'>
           <Card>
             <form onSubmit={registerUser}>
-              <h3>Sign up</h3>
+              <h3 className="title">Sign up</h3>
 
-              <input name="firstName" type="text" value={firstName} onChange={(e) => setFirstName(e.target.value)} placeholder="First name"/>
-              <input name="lastName" type="lastName" value={lastName} onChange={(e) => setLastName(e.target.value)} placeholder="Last name"/>
-              <input name="email" type="text" value={email} onChange={(e) => setEmail(e.target.value)} placeholder="Email"/>
-              <input name="password" type="password" value={password} onChange={(e) => setPassword(e.target.value)} placeholder="Password"/>
+              <input className="txtForm" name="firstName" type="text" value={firstName} onChange={(e) => setFirstName(e.target.value)} placeholder="First name"/>
+              <input className="txtForm" name="lastName" type="lastName" value={lastName} onChange={(e) => setLastName(e.target.value)} placeholder="Last name"/>
+              <input className="txtForm" name="email" type="text" value={email} onChange={(e) => setEmail(e.target.value)} placeholder="Email"/>
+              <input className="txtForm" name="password" type="password" value={password} onChange={(e) => setPassword(e.target.value)} placeholder="Password"/>
 
-              <div>
-                <button>Sign up</button>
+              <div className="contain-btn">
+                <button className="btnSign">Sign up</button>
               </div>
             </form>
           </Card>

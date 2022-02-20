@@ -201,5 +201,27 @@ a{
   width: 100%;
   border: 1px solid #eee;
   box-shadow: 0 0 5px 1px #ccc;
+  padding: 10px 0;
+}
+
+.title {
+  text-align: center;
+}
+
+.txtForm {
+  padding: 2px;
+  margin: 5px;
+  font-weight: bold;
+}
+
+.contain-btn {
+  text-align: center;
+}
+.btnSign {
+  background-color: rgba(112,112,203,1);
+  color: #fff;
+  border-radius: 8%;
+  border: 1px solid black;
+  padding: 2px 5px;
 }
 /* LOGIN END */

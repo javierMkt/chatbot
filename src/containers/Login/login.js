@@ -46,11 +46,13 @@ const Login = (props) => {
         <div className='login-container'>
           <Card>
             <form onSubmit={userLogin}>
-              <input name="email" type="text" value={email} onChange={(e) => setEmail(e.target.value)} placeholder="Email"/>
-              <input name="password" type="password" value={password} onChange={(e) => setPassword(e.target.value)} placeholder="Password"/>
+              <h3 className="title">Login</h3>
 
-              <div>
-                <button>Login</button>
+              <input className="txtForm" name="email" type="text" value={email} onChange={(e) => setEmail(e.target.value)} placeholder="Email"/>
+              <input className="txtForm" name="password" type="password" value={password} onChange={(e) => setPassword(e.target.value)} placeholder="Password"/>
+
+              <div className="contain-btn">
+                <button className="btnSign">Login</button>
               </div>
             </form>
           </Card>
