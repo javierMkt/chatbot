@@ -1,0 +1,17 @@
+import React from 'react'
+import Header from '../Header/header.js'
+
+/** 
+ * @function Layout
+*/
+
+const Layout = (props) => {
+  return (
+    <div>
+        <Header/>
+        {props.children}
+    </div>
+  )
+}
+
+export default Layout
